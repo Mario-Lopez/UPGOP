@@ -1,0 +1,263 @@
+.header 
+{
+    background: tomato;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.header .logo
+{
+    color: white;
+    height: 50px;
+    transition: all 0.5s ease;
+}
+.header .logo:hover
+{
+    transform: scale(1.01);
+    text-decoration: none;
+}
+.header input
+{
+    width: 300px;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 30px;
+    border-color:  rgba(51, 104, 148);
+    margin-left: 20px;
+}
+.header #buscar
+{
+    border-radius: 5px;
+    border-width: 1px;
+    height: 30px;
+}
+.header .menu
+{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+}
+.menu li
+{
+    margin-left: 15px;
+}
+.opciones
+{
+    color: white;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.opciones::after
+{
+    content: '';
+    width: 0;
+    display: block;
+    height: 2px;
+    background: tomato;
+    transition: all 0.5s ease;
+}
+.opciones:hover::after
+{
+    width: 100%;
+}
+.opciones:hover
+{
+    text-decoration: none;
+}
+.header img
+{
+    height: 20px;
+}
+.search
+{
+    /* background: rgba(51, 104, 148); */
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.search #carreras-abrir
+{
+    height: 40px;
+    border-style: none;
+    background: none;
+    color: tomato;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.search #carreras-cerrar
+{
+    height: 40px;
+    border-style: none;
+    background: none;
+    color: tomato;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    display: none;
+}
+#carreras-desp
+{
+    visibility: hidden;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background:rgba(51, 104, 148,0.8);
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+#carreras-desp section
+{
+    color: white;
+    background: rgba(51, 104, 148,0.8);
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#carreras-desp #tecnologias
+{
+    visibility: hidden;
+}
+#carreras-desp #mecatronica
+{
+    visibility: hidden;
+}
+#carreras-desp section a
+{
+    color: white;
+}
+
+.container
+{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 10px;
+    transition: all 0.5s ease;
+}
+.container img
+{
+    border-radius: 100%;
+    height: 300px;
+}
+.main
+{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    transition: all 0.5s ease;
+
+}
+.titulos
+{
+    margin:20px;
+}
+.main section
+{
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 1px #818181;
+}
+.main section header
+{
+    background: rgba(51, 104, 148);
+    height: 120px;
+    transition: all 0.5s ease;
+}
+.main section main
+{
+    margin: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main section img
+{
+    height: 100px;
+}
+.main header:hover
+{
+    background:rgba(51, 104, 148,0.9);
+}
+@media screen and (max-width:768px)
+{
+    .container
+    {
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+    }
+    .main
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:660px)
+{
+    .header .logo
+    {
+        height: 35px;
+    }
+    #carreras-desp
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .header h1
+    {
+        font-size: 18px;
+    }
+    .header input
+    {
+        width: 200px;
+    }
+    .header .menu .opciones
+    {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:400px)
+{
+    .header img
+    {
+        height: 15px;
+    }
+    .header input
+    {
+        top: 10px;
+        width: 100px;
+        height: 20px;
+    }
+    .header #buscar
+    {
+        height: 20px;
+    }
+    .header img
+    {
+        height: 15px;
+    }
+    .header h1
+    {
+        font-size: 12px;
+    }
+    .header .menu
+    {
+        position: absolute;
+    }
+    .header .menu .opciones
+    {
+        color: white;
+        font-size: 12px;
+        margin-left:0px;
+    }
+    #carreras-desp
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .main
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

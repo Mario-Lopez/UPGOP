@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reglamento.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="img/logoblanco.png" alt="" class="logo">
+        </a>
+        <input type="search" placeholder="Buscar...">
+        <button id="buscar"><img src="img/buscar.png" alt=""></button>
+        <nav>
+            <ul class="menu" id="menu-res">
+                <li class="lista"><a href="acerca.html" class="opciones">Acerca de</a></li>
+                <li class="lista"><a href="reglamento.html" class="opciones">Reglamento</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="search">
+        <button id="carreras-abrir" onclick="AbrirOnClick()">Carreras ⇩</button>
+        <button id="carreras-cerrar" onclick="CerrarOnClick()">Carreras ⇧</button>
+    </div>
+
+    <div class="carreras-desp" id="carreras-desp">
+        <section id="tecnologias">
+            <h2>Tecnologías de la información</h2>
+            <h4>1er</h4>
+            <li><a href="introduccion.html">Introducción a la programación</a></li>
+            <h4>2do</h4>
+            <li><a href="arquitectura.html">Arquitectura de computadoras</a></li>
+            <h4>3er</h4>
+            <li><a href="programacion.html">Programación</a></li>
+            <h4>4to</h4>
+            <li><a href="estructura-datos.html">Estructura de datos</a></li>
+            <h4>7mo</h4>
+            <li><a href="programacion-web.html">Programación web</a></li>
+        </section>
+        <section id="mecatronica">
+            <h2>Mecatrónica</h2>
+            <h4>1er</h4>
+            <li><a href="herramientas.html">Herramientas informáticas I4.0</a></li>
+            <h4>2do</h4>
+            <li><a href="funciones.html">Funciones matemáticas</a></li>
+            <h4>3er</h4>
+            <li><a href="probabilidad.html">Probabilidad y estadística</a></li>
+        </section>
+    </div>
+
+    <div class="bienvenida">
+        <h1>Reglamento</h1>
+        <p>Apreciables alumnos, pongo a su disposición el reglamento del salón de clases. Los alumnos itianos y
+            mecatrónicos de la UTT y de la UPGOP se distinguen por cumplir con el reglamento de la clase:</p>
+    </div>
+
+    <main class="container">
+        <li class="reglas">
+            <img src="img/valor.png" alt="">
+            <h2>Formación íntegra y de valores</h2>
+            <p>Los alumnos son personas comprometidas con la sociedad y el medio ambiente, dando siempre una imagen
+                ejemplar.</p>
+        </li>
+        <li class="reglas">
+            <img src="img/puntualidad.png" alt="">
+            <h2>Asistencia y puntualidad</h2>
+            <p>Los alumnos saben que toda persona comprometida, asiste puntualmente a todas sus clases, conferencias,
+                registra su asistencia en Moodle, avisa en caso de inconvenientes (enfermedades o cualquier otra
+                situación) y en caso de no asistir, cumple con las tareas, evidencias en tiempo y forma, por que sabe
+                que hay consecuencias en caso de no hacerlo.</p>
+        </li>
+        <li class="reglas">
+            <img src="img/evaluacion.png" alt="">
+            <h2>Evaluación (Saber & Saber Hacer)</h2>
+            <p>Los alumnos demuestran su educación respetando a los docentes y sus compañeros de clase, así como a todo
+                el personal de la institución. Recuerda que el respetar promueve la paz</p>
+        </li>
+        <li class="reglas">
+            <img src="img/evaluacion2.png" alt="">
+            <h2>Evaluación</h2>
+            <p>
+                <ul>
+                    <li>ORDINARIA: Saber(30%) + Saber Hacer(40%) + Ser(30%) = 100%</li>
+                    <li>REMEDIAL: Máxima calificación para UTT - 80%</li>
+                    <li>REMEDIAL: Máxima calificación para UPGOP - 70%</li>
+                    <li>Saber: Conocimiento del alumno adquirido mediante tareas, investigaciones, prácticas, etc.</li>
+                    <li>Saber Hacer: Evaluación por Unidad</li>
+                    <li>Ser: El alumno es una persona integra y de valores con compromiso social, responsable, ordenado
+                        y respetuoso.</li>
+                </ul>
+            </p>
+        </li>
+        <li class="reglas">
+            <img src="img/respeto.png" alt="">
+            <h2>Respeto</h2>
+            <p>Los alumnos demuestran su educación respetando a los docentes y sus compañeros de clase, así como a todo
+                el personal de la institución. Recuerda que el respetar promueve la paz</p>
+        </li>
+        <li class="reglas">
+            <img src="img/compromiso.png" alt="">
+            <h2>Compromiso laboral</h2>
+            <p>Los alumnos que trabajan y estudian, saben que tienen doble comprimiso, avisan a su maestro en caso de
+                cualquier inconveniente, así que deben comprometerse el doble para la entrega de tareas, trabajos y
+                evidencias, ya que de no hacerlo, hay consecuencias.</p>
+        </li>
+        <li class="reglas">
+            <img src="img/herramientas.png" alt="">
+            <h2>Herramientas de trabajo</h2>
+            <p>Los alumnos conocen la importancia de asistir todos los días de clase con las herramientas de trabajo
+                (Laptop, Visual Studio, Netbeans, Management, Workbench, Virtualbox, Visio, Project, Office, XAMPP,
+                Sublime, Adobe Illustrator, etc.)</p>
+        </li>
+    </main>
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/funciones-materias.js"></script>
+</body>
+
+</html>

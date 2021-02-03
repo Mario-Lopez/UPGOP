@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/acerca.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="img/logoblanco.png" alt="" class="logo">
+          </a>
+        <input type="search" placeholder="Buscar...">
+        <button id="buscar"><img src="img/buscar.png" alt=""></button>
+        <nav>
+          <ul class="menu" id="menu-res">
+            <li class="lista"><a href="acerca.html" class="opciones">Acerca de</a></li>
+            <li class="lista"><a href="reglamento.html" class="opciones">Reglamento</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="search">
+        <button id="carreras-abrir" onclick="AbrirOnClick()">Carreras ⇩</button>
+        <button id="carreras-cerrar" onclick="CerrarOnClick()">Carreras ⇧</button>
+      </div>
+
+    <div class="carreras-desp" id="carreras-desp">
+        <section id="tecnologias">
+            <h2>Tecnologías de la información</h2>
+            <h4>1er</h4>
+            <li><a href="introduccion.html">Introducción a la programación</a></li>
+            <h4>2do</h4>
+            <li><a href="arquitectura.html">Arquitectura de computadoras</a></li>
+            <h4>3er</h4>
+            <li><a href="programacion.html">Programación</a></li>
+            <h4>4to</h4>
+            <li><a href="estructura-datos.html">Estructura de datos</a></li>
+            <h4>7mo</h4>
+            <li><a href="programacion-web.html">Programación web</a></li>
+        </section>
+        <section id="mecatronica">
+            <h2>Mecatrónica</h2>
+            <h4>1er</h4>
+            <li><a href="herramientas.html">Herramientas informáticas I4.0</a></li>
+            <h4>2do</h4>
+            <li><a href="funciones.html">Funciones matemáticas</a></li>
+            <h4>3er</h4>
+            <li><a href="probabilidad.html">Probabilidad y estadística</a></li>
+        </section>
+    </div>
+
+    <div class="container">
+        <section>
+            <img src="img/yo.jpg" alt="">
+        </section>
+        <section>
+            <h1>Acerca de:</h1>
+            <h3>Mario Angel López Esquivel</h3>
+            <p>Estudiante de Ingeniería en Tecnologías de la Información en la Universidad Politécnica de Gómez Palacio</p>
+            <h3>Estudios</h3>
+            <li>Ingeniería en Tecnologías de la Información - Universidad Poltécnica de Gómez Palacio</li>
+            <li>Técnico Profesional en Mantenimiento Industrial - Cetis#47</li>
+        </section>
+    </div>
+
+    <h3 class="titulos">Lenguajes manejados</h3>
+    <main class="main">
+        <section>
+            <header><center><img src="img/csharp.png" alt=""></center></header>
+            <main>
+                <h4>C#</h4>
+                <p>Utilizado para la creación de aplicaciones de escritorio.</p>
+            </main>
+            <footer>
+
+            </footer>
+        </section>
+        <section>
+            <header><center><img src="img/html.png" alt=""></center></header>
+            <main>
+                <h4>HTML</h4>
+                <p>Lenguaje de maquetas, utilizado para la creación de la estructura de una página web.</p>
+            </main>
+            <footer>
+
+            </footer>
+        </section>
+        <section>
+            <header><center><img src="img/css.png" alt=""></center></header>
+            <main>
+                <h4>CSS</h4>
+                <p>Lenguaje de diseño,utilizado para la interfaz de una página web.</p>
+            </main>
+            <footer>
+
+            </footer>
+        </section>
+        <section>
+            <header><center><img src="img/js.png" alt=""></center></header>
+            <main>
+                <h4>JavaScript</h4>
+                <p>Lenguaje de funcionamiento, utilizado para realizar una página web más dinámica y funcional.</p>
+            </main>
+        </section>
+    </main>
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/funciones-materias.js"></script>
+</body>
+
+</html>

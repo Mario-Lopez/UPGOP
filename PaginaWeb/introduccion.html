@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Lopez - Introducción a la programación</title>
+    <link rel="stylesheet" href="css/diseño-materias.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="img/logoblanco.png" alt="" class="logo">
+          </a>
+        <input type="search" placeholder="Buscar...">
+        <button id="buscar"><img src="img/buscar.png" alt=""></button>
+        <nav>
+            <ul class="menu" id="menu-res">
+                <li class="lista"><a href="acerca.html" class="opciones">Acerca de</a></li>
+                <li class="lista"><a href="reglamento.html" class="opciones">Reglamento</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="search">
+        <button id="carreras-abrir" onclick="AbrirOnClick()">Carreras ⇩</button>
+        <button id="carreras-cerrar" onclick="CerrarOnClick()">Carreras ⇧</button>
+    </div>
+
+    <div id="carreras-desp">
+        <section id="tecnologias">
+            <h2>Tecnologías de la información</h2>
+            <h4>1er</h4>
+            <li><a href="introduccion.html">Introducción a la programación</a></li>
+            <h4>2do</h4>
+            <li><a href="arquitectura.html">Arquitectura de computadoras</a></li>
+            <h4>3er</h4>
+            <li><a href="programacion.html">Programación</a></li>
+            <h4>4to</h4>
+            <li><a href="estructura-datos.html">Estructura de datos</a></li>
+            <h4>7mo</h4>
+            <li><a href="programacion-web.html">Programación web</a></li>
+        </section>
+        <section id="mecatronica">
+            <h2>Mecatrónica</h2>
+            <h4>1er</h4>
+            <li><a href="herramientas.html">Herramientas informáticas I4.0</a></li>
+            <h4>2do</h4>
+            <li><a href="funciones.html">Funciones matemáticas</a></li>
+            <h4>3er</h4>
+            <li><a href="probabilidad.html">Probabilidad y estadística</a></li>
+        </section>
+    </div>
+
+    <div class="titulo">
+        <h1>Introduccion a la Programación</h1>
+        <h2>INP-ES 1A Y 1B</h2>
+    </div>
+
+    <main class="container">
+        <div class="panel-programa">
+            <div class="titulo-panel">Programa de Estudio</div>
+            <details class="styled">
+                <summary>Manual de la asignatura</summary>
+                <div class="informacion">
+                    <li>Nombre de la asignatura</li>
+                    <p>Introducción a la programación</p>
+                    <li>Clave de la Asignatura</li>
+                    <p>INP-ES</p>
+                    <li>Propósito de aprendizaje de la asignatura</li>
+                    <p>El alumno implementará programas mediante metodologías y herramientas de programación para
+                        visualizar las aplicaciones de tecnologías de la información en la solución de problemas.
+                    </p>
+                    <li>Cuatrimestre</li>
+                    <p>Primero</p>
+                    <li>Horas presenciales</li>
+                    <p>90</p>
+                    <li>Horas por semana presenciales</li>
+                    <p>6</p>
+                    <li>Horas por semana no presenciales</li>
+                    <p>1</p>
+                    <li>Horas totales por semana</li>
+                    <p>7</p>
+                </div>
+            </details>
+
+            <details class="styled">
+                <summary>Evaluación</summary>
+                <div class="evaluacion">
+                    <section>
+                        <header>
+                            <h5>Saber</h5>
+                        </header>
+                        <main class="main-eva"><img src="img/saber.png" alt=""></main>
+                        <footer>
+                            <h5>30%</h5>
+                        </footer>
+                    </section>
+
+                    <section>
+                        <header>
+                            <h5>Más</h5>
+                        </header>
+                        <main class="main-eva"><img src="img/mas.png" alt=""></main>
+                        <footer></footer>
+                    </section>
+
+                    <section>
+                        <header>
+                            <h5>Saber hacer</h5>
+                        </header>
+                        <main class="main-eva"><img src="img/saber-hacer.png" alt=""></main>
+                        <footer>
+                            <h5>40%</h5>
+                        </footer>
+                    </section>
+
+                    <section>
+                        <header>
+                            <h5>Más</h5>
+                        </header>
+                        <main class="main-eva"><img src="img/mas.png" alt=""></main>
+                        <footer></footer>
+                    </section>
+
+                    <section>
+                        <header>
+                            <h5>Ser</h5>
+                        </header>
+                        <main class="main-eva"><img src="img/ser.png" alt=""></main>
+                        <footer>
+                            <h5>30%</h5>
+                        </footer>
+                    </section>
+                </div>
+            </details>
+            <details class="styled">
+                <summary>Bibliografía</summary>
+                <div class="informacion">
+                    <li>Luis Joyanes 2008 Fundamentos de Programación: Algoritmos, estructura de datos y objetos Madrid,
+                        España Mc Graw Hill 978-84-481-6111-8</li>
+                    <li>Luis Joyanes 2013 Fundamentos generales de programación Madrid, España Mc Graw Hill
+                        978-607-15-0818-8</li>
+                    <li>CAIRÓ, Osvaldo 2005 Metodología de la programación - algoritmos, diagramas de flujo y programas
+                        México Alfaomega 970-15-1100-X</li>
+                    <li>SZNAJDLEDER, Pablo 2017 Algoritmos a Fondo: - Con implementaciones en c y java México Alfaomega
+                        Grupo Editor " 9786077079576 "</li>
+                    <li>"Mark A. Weiss, Mark Allen Weiss, Weiss Mark Hardcover" 2013 Structures & Algorithm Analysis in
+                        C++ Estados Unidos Prentice Hall College 978-0-13-284737-7</li>
+                    <li>Juan Bernado Vázquez Gómez 2012 Análisis y diseño de algoritmos México Red Tercer Milenio
+                        978-607-733-053-0</li>
+                    <li>Robert Sedgewick, Kevin Wayne 2106 Algorithms Estados Unidos Addison-Wesley Professional
+                        978-0-13-438468-9</li>
+                </div>
+            </details>
+        </div>
+        <div class="panel-programa">
+            <div class="titulo-panel">Unidad 1 - Algoritmos</div>
+            <details class="styled">
+                <summary> TEMA 1 - Fundamentos de algoritmos</summary>
+                <div class="informacion">
+                    <h5><b>¿Qué es un algoritmo?</b></h5>
+                    <p>Constituye una lista bien definida, ordenada y finita de operaciones, que permite encontrar la
+                        solución a un problema determinado. Dado un estado inicial y una entrada, es a través de pasos
+                        sucesivos y bien definidos que se llega a un estado final, en el que se obtiene una solución (si
+                        hay varias) o la solución (si es única).</p>
+                    <h5><b>Expresar un algoritmo</b></h5>
+                    puede ser expresado como:
+                    <li>Lenguaje natural</li>
+                    <li>Pseudocódigo</li>
+                    <li>Diagramas de flujo</li>
+                    <li>Programas</li>
+                    <h5><b>Análisis y comprensión de un problema</b></h5>
+                    <p>Las etapas de desarrollo de un algoritmo, con base en la lógica, son las siguientes:</p>
+                    <ol>
+                        <li><b>Definición:</b> En esta etapa se especifica el propósito del algoritmo y se ofrece una
+                            definición clara del problema por resolver. Además, aquí también se establece lo que se
+                            pretende lograr con su solución.</li>
+                        <li><b>Análisis:</b> En este punto se analiza el problema y sus características, y se determinan
+                            las entradas y salidas del problema. De igual modo, también se realiza una investigación
+                            sobre si ya se conoce alguna o varias soluciones de este.</li>
+                        <li><b>Diseño:</b> Aquí es donde se plasma la solución del problema. Con ese fin, se emplea una
+                            herramienta de diseño, que consiste en el diagrama de flujo y el pseudocódigo.</li>
+                        <li><b>Implementación:</b> En este último paso es donde se realiza o se ve concretado el
+                            programa y, por ende, se hacen varias pruebas.</li>
+                    </ol>
+                </div>
+            </details>
+            <details class="styled">
+                <summary> TEMA 2 - Tipos de datos y expresiones</summary>
+                <div class="informacion">
+                    <h5>Tipo de datos más básicos</h5>
+                    <img src="img/tipos-datos.png" alt="" class="img-mediana">
+                    <h5>Expresiones más utilizadas</h5>
+                    <img src="img/expresiones.png" alt="" class="img-chica">
+                </div>
+            </details>
+            <details class="styled">
+                <summary> TEMA 3 - Metodología para la solución de problemas</summary>
+                <div class="informacion">
+                    <ul>
+                        <li>Definir el problema: saber que es el problema y comprenderlo.</li>
+                        <li>Analizar el problema: idear los pasos a seguir, identificar las entradas, salidas y
+                            procesos.</li>
+                        <li>Diseñar una solución: el análisis plantearlo mediante un algoritmo: diagrama de flujo y
+                            pseudocódigo.</li>
+                        <ul>
+                            <li>INICIO</li>
+                            <li>Paso 1. Declarar variables</li>
+                            <li>Paso 2. Entradas de datos</li>
+                            <li>Paso 3. Proceso de datos</li>
+                            <li>Paso 4. Salida de datos</li>
+                            <li>FIN</li>
+                        </ul>
+                        <li>Implementar la solución: El diagrama de flujo representarlo en un lenguaje de programación,
+                            realizar pruebas y mejoras al programa.</li>
+                    </ul>
+                </div>
+            </details>
+        </div>
+        <div class="panel-programa">
+            <div class="titulo-panel">Unidad 2 - Estructuras de control de algoritmos</div>
+            <details class="styled">
+                <summary>TEMA 1 - Tipos de aplicaciones</summary>
+                <div class="informacion">
+                    <img src="img/tipos-apps.png" alt="" class="img-chica">
+                    <li>Nativas</li>
+                    <p>Para su desarrollo es utilizado un lenguaje de programación nativo. Para iOS es Objective C o
+                        Siwft, para Android es Java, para Windows Phone es .NET. Las apps no son portables y se deben
+                        desarrollar según la plataforma en donde se implementará. Si se desea crear una app nativa
+                        multiplataforma, se deberá crear una app para cada plataforma.</p>
+                    <br>
+                    <li>Híbridas</li>
+                    <p>Son desarrolladas utilizando tecnologías web como HTML5, CSS3, JavaScript, utilizando
+                        Phonegap/Cordova haciendo su modelo neutro con respecto a la plataforma a utilizar.</p>
+                    <br>
+                    <li>Web</li>
+                    <p>Son desarrolladas con tecnologías web: HTML, CSS, Javascript, utilizando frameworks. Se alojan en
+                        servidores.</p>
+                </div>
+            </details>
+            <details class="styled">
+                <summary>TEMA 2 - Entrada y salida de datos</summary>
+                <div class="informacion">
+                    <img src="img/ejemplo.png" alt="" class="img-mediana">
+                </div>
+            </details>
+            <details class="styled">
+                <summary>TEMA 3 - Declaración de variables</summary>
+                <div class="informacion">
+                    <li>Variables</li>
+                    <p>Las variables representan un espacio de la memoria de la computadora. A travpes de una variable,
+                        podemos almacenar temporalmente datos para tenerlos disponibles durante la ejecución del
+                        programa. Para utilizar una variable, tenemos que especificar un nombre y un tipo de datos</p>
+                    <br>
+                    <p>Nombre de las variables o identificadores válidos</p>
+                    <li>fecha</li>
+                    <li>fec</li>
+                    <li>fechaNacimiento</li>
+                    <li>fechaNac</li>
+                    <li>fec1</li>
+                    <li>fec2</li>
+                    <li>ifechaNac</li>
+                    <br>
+                    <p>Nombres de variables o identificadores incorrectos</p>
+                    <br>
+                    <li>2fecha (no puede comenzar con un número)</li>
+                    <li>-fecha (no puede tener carácteres)</li>
+                    <li>fecha nacimiento (sin espacios)</li>
+                    <li>fecha-nacimiento</li>
+                    <li>fecha+nacimiento</li>
+                </div>
+            </details>
+        </div>
+        <div class="panel-programa">
+            <div class="titulo-panel">Unidad 3 - Metodología del desarrollo de programas</div>
+            <details class="styled">
+                <summary>TEMA 1 - Fases de desarrollo de software</summary>
+                <div class="informacion">
+                </div>
+            </details>
+            <details class="styled">
+                <summary>TEMA 2 - Diferencia entre lenguajes de programación de alto y bajo nivel</summary>
+                <div class="informacion">
+                </div>
+            </details>
+            <details class="styled">
+                <summary>TEMA 3 - Etapas de prueba, depuración y documentación</summary>
+                <div class="informacion">
+                </div>
+            </details>
+        </div>
+    </main>
+
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/funciones-materias.js"></script>
+</body>
+
+</html>

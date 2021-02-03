@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Lopez - Herramientas informáticas I4.0</title>
+    <link rel="stylesheet" href="css/diseño-materias-meca.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="img/logoblanco.png" alt="" class="logo">
+          </a>
+        <input type="search" placeholder="Buscar...">
+        <button id="buscar"><img src="img/buscar.png" alt=""></button>
+        <nav>
+            <ul class="menu" id="menu-res">
+                <li class="lista"><a href="acerca.html" class="opciones">Acerca de</a></li>
+                <li class="lista"><a href="reglamento.html" class="opciones">Reglamento</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="search">
+        <button id="carreras-abrir" onclick="AbrirOnClick()">Carreras ⇩</button>
+        <button id="carreras-cerrar" onclick="CerrarOnClick()">Carreras ⇧</button>
+    </div>
+
+    <div id="carreras-desp">
+        <section id="tecnologias">
+            <h2>Tecnologías de la información</h2>
+            <h4>1er</h4>
+            <li><a href="introduccion.html">Introducción a la programación</a></li>
+            <h4>2do</h4>
+            <li><a href="arquitectura.html">Arquitectura de computadoras</a></li>
+            <h4>3er</h4>
+            <li><a href="programacion.html">Programación</a></li>
+            <h4>4to</h4>
+            <li><a href="estructura-datos.html">Estructura de datos</a></li>
+            <h4>7mo</h4>
+            <li><a href="programacion-web.html">Programación web</a></li>
+        </section>
+        <section id="mecatronica">
+            <h2>Mecatrónica</h2>
+            <h4>1er</h4>
+            <li><a href="herramientas.html">Herramientas informáticas I4.0</a></li>
+            <h4>2do</h4>
+            <li><a href="funciones.html">Funciones matemáticas</a></li>
+            <h4>3er</h4>
+            <li><a href="probabilidad.html">Probabilidad y estadística</a></li>
+        </section>
+    </div>
+
+
+    <div class="titulo">
+        <h1>Herramientas Informáticas l4.0</h1>
+        <h2>MT SMF 1A TN Y MT AUTO 1A TN</h2>
+    </div>
+
+    <main class="container">
+        <div class="panel-programa">
+            <div class="titulo-panel">Programa de Estudio</div>
+            <details class="styled">
+                <summary>Manual de la asignatura</summary>
+                <div class="informacion">
+                    <li>Nombre de la asignatura</li>
+                    <p>Herramientas Informáticas I4.0</p>
+                    <li>Competencias</li>
+                    <p>Desarrollar y conservar sistemas automatizados y de control, utilizando tecnología adecuada, de
+                        acuerdo a normas, especificaciones técnicas y de seguridad, para mejorar y mantener los procesos
+                        productivos.</p>
+                    <li>Cuatrimestre</li>
+                    <p>Segundo</p>
+                    <li>Horas prácticas</li>
+                    <p>42</p>
+                    <li>Horas teóricas</li>
+                    <p>18</p>
+                    <li>Horas totales</li>
+                    <p>60</p>
+                    <li>Horas totales por semana</li>
+                    <p>4</p>
+                    <li>Objetivo</li>
+                    <p>El alumno utilizará software informático, equipo periférico, plataformas digitales e Internet de
+                        las cosas como herramienta de apoyo para la administración de procesos productivos.
+                    </p>
+                </div>
+            </details>
+
+            <details class="styled">
+                <summary>Evaluación</summary>
+                <div class="evaluacion">
+                    <section>
+                        <header>
+                            <h5>Saber</h5>
+                        </header>
+                        <main class="main-eva"><img src="img/saber.png" alt=""></main>
+                        <footer>
+                            <h5>30%</h5>
+                        </footer>
+                    </section>
+
+                    <section>
+                        <header>
+                            <h5>Más</h5>
+                        </header>
+                        <main class="main-eva"><img src="img/mas.png" alt=""></main>
+                        <footer></footer>
+                    </section>
+
+                    <section>
+                        <header>
+                            <h5>Saber hacer</h5>
+                        </header>
+                        <main class="main-eva"><img src="img/saber-hacer.png" alt=""></main>
+                        <footer>
+                            <h5>40%</h5>
+                        </footer>
+                    </section>
+
+                    <section>
+                        <header>
+                            <h5>Más</h5>
+                        </header>
+                        <main class="main-eva"><img src="img/mas.png" alt=""></main>
+                        <footer></footer>
+                    </section>
+
+                    <section>
+                        <header>
+                            <h5>Ser</h5>
+                        </header>
+                        <main class="main-eva"><img src="img/ser.png" alt=""></main>
+                        <footer>
+                            <h5>30%</h5>
+                        </footer>
+                    </section>
+                </div>
+            </details>
+
+            <details class="styled">
+                <summary>Bibliografía</summary>
+                <div class="informacion">
+                    <li>Cairó Battistutti, Dr. Osvaldo (2003) Metodología de la Programación México México Alfaomega
+                        ISBN: 9701509404</li>
+                    <li>Corona Nakamura, María. Valdez Ancona, María. (2011) Diseño de Algoritmos y su codificación en
+                        Lenguaje C. 1ª Edición. México México McGrawHill, ISBN: 9786071505712</li>
+                    <li>Ferreyra Cortés, Gonzalo. (2012) Office 2010, paso a paso con actividades c/cd. 1ª Edición. D.F.
+                        México Alfaomega ISBN 978-607-707-447-2 Giant, Nikki (2016) Ciberseguridad para la i-generación
+                        Madrid España Narcea S.A. Ediciones ISBN: 978-84-277-2144-9</li>
+                    <li>Gilchrist, Alasdair (2016) Industry 4.0 The Industrial Internet of things Tailandia Tailandia
+                        Apress ISBN: 978-1-4842-2047-4</li>
+                    <li>Kamal, Raja. (2017) Internet of things. Design and architecture príncipes. India India Mc Graw
+                        Hill Joyanes Aguilar, Luis. (2012) Fundamentos Generales de Programación México México
+                        McGrawHill ISBN: 9786071508188</li>
+                    <li>Naranjo González, Ma. Refugio. (2010) Manual Técnico en Software Ofimático. Madrid España.
+                        Editorial CEP ISBN: 9788468111117</li>
+                    <li>Peña, Rosario, Pérez Ángel. (2010) Microsoft Office 2010: Todo práctica. 1ª Edición. Madrid
+                        España Alfaomega. & RC Libros. ISBN: 978-607-707-018-4</li>
+                </div>
+            </details>
+        </div>
+        <div class="panel-programa">
+            <div class="titulo-panel">Unidad 1 - Introducción a Herramientas informáticas</div>
+            <details class="styled">
+                <summary> TEMA 1 - Introducción</summary>
+                <div class="informacion">
+                    <img src="img/herramientas-info.png" alt="" class="img-chica">
+                    <br>
+                    <p>Las Herramientas informáticas (tools, en inglés), son programas, aplicaciones o simplemente
+                        instrucciones usadas para efectuar otras tareas de modo más sencillo. En un sentido amplio del
+                        término, podemos decir que una herramienta es cualquier programa o instrucción que facilita una
+                        tarea, pero también podríamos hablar del hardware o accesorios como herramientas.</p>
+                </div>
+            </details>
+            <details class="styled">
+                <summary> TEMA 2 - Partes y funciones de office</summary>
+                <div class="informacion">
+                    <br>
+                    <p>La elaboración de un documento ya impreso o bien electrónico requiere de una elaboración con
+                        diseño
+                        y formato para que sea entendible para cualquier persona que lo lea, es por ello que es
+                        importante
+                        conocer lo principal de cada herramienta para lograrlo.
+                    </p>
+                    <p>Click en la imágen para acceder a un PDF</p>
+                    <a href="http://www.cca.org.mx/cca/cursos/hbi_4/info_curso/mod3_hbi_vi.pdf" target="_blank"><img src="img/office.png" alt="" class="img-chica"></a>
+                </div>
+            </details>
+            <details class="styled">
+                <summary> TEMA 3 - Elaboración de documentos en word</summary>
+                <div class="informacion">
+                    <br>
+                    <p>Microsoft Word es un software informático procesador de texto, de los más utilizados a la hora de trabajar con documentos digitales en la actualidad.</p>
+                    <br>
+                    <p>Click en la imágen para acceder a un manual entero del programa Word</p>
+                    <a href="http://iepct.mx/docs/capacitacion/manuales/manuales-diversos/manual-de-word-2016.pdf" target="_blank"><img src="img/word.png" alt="" class="img-mediana"></a>
+                </div>
+            </details>
+        </div>
+        <div class="panel-programa">
+            <div class="titulo-panel">Unidad 2 - Hoja de cálculo y manejo de base de datos</div>
+            <details class="styled">
+                <summary>TEMA 1 - Elaboración de documentos en Excel</summary>
+                <div class="informacion">
+                    <br>
+                    <p>Excel es un programa informático de hojas de cálculo electrónicas creado por la empresa Microsoft.</p>
+                    <br>
+                    <p>Da click en la siguiente imágen para acceder a un manual completo de Excel</p>
+                    <a href="http://www.mxmedia.com.ar/capacitacion/teoria/Excel%202016%20-%20Completo.pdf" target="_blank"><img src="img/excel.png" alt="" class="img-mediana"></a>
+                </div>
+            </details>
+            <details class="styled">
+                <summary>TEMA 2 - Funciones en Excel</summary>
+                <div class="informacion">
+                    <br>
+                    <p>Click en la siguiente imágen para acceder a un manual de funciones completo de Excel</p>
+                    <a href="https://excelyvba.com/funciones-de-excel/" target="_blank"><img src="img/libro.png" alt="" class="img-mediana"></a>
+                </div>
+            </details>
+            <details class="styled">
+                <summary>TEMA 3 - Agrupación de celdas</summary>
+                <div class="informacion">
+                </div>
+            </details>
+        </div>
+        <div class="panel-programa">
+            <div class="titulo-panel">Unidad 3 - Introducción a Internet de las cosas</div>
+            <details class="styled">
+                <summary>TEMA 1 - Introducción a las redes de computadora</summary>
+                <div class="informacion">
+                    <br>
+                    <p>Click en la siguiente imágen para acceder al tema de la clase</p>
+                    <a href="http://tolinware.com/resources/utt/herramientasinformaticasi40/1_introduccionalasredesdecomputadora.pdf" target="_blank"><img src="img/libro.png" alt="" class="img-mediana"></a>
+                </div>
+            </details>
+            <details class="styled">
+                <summary>TEMA 2 - Modelo OSI y TCP/IP</summary>
+                <div class="informacion">
+                    <br>
+                    <p>Click en la siguiente imágen para acceder al tema de la clase</p>
+                    <a href="https://medium.com/@xxxamin1314/cu%C3%A1l-es-la-diferencia-entre-modelo-osi-y-modelo-tcp-ip-83829bbd484d" target="_blank"><img src="img/libro.png" alt="" class="img-mediana"></a>
+                </div>
+            </details>
+            <details class="styled">
+                <summary>TEMA 3 - Transmisión síncrono y asíncrona</summary>
+                <div class="informacion">
+                    <br>
+                    <p>Click en la siguiente imágen para acceder al tema de la clase</p>
+                    <a href="http://cidecame.uaeh.edu.mx/lcc/mapa/PROYECTO/libro27/361_sincrona_y_asincrona.html" target="_blank"><img src="img/libro.png" alt="" class="img-mediana"></a>
+                </div>
+            </details>
+        </div>
+    </main>
+
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/funciones-materias.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenidos a Mario Lopez</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="img/logoblanco.png" alt="" class="logo">
+    </a>
+    <input type="search" placeholder="Buscar...">
+    <button id="buscar"><img src="img/buscar.png" alt=""></button>
+    <nav>
+      <ul class="menu" id="menu-res">
+        <li class="lista"><a href="acerca.html" class="opciones">Acerca de</a></li>
+        <li class="lista"><a href="reglamento.html" class="opciones">Reglamento</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="slider">
+    <div class="search">
+      <button id="carreras-abrir" onclick="AbrirOnClick()">Carreras ⇩</button>
+      <button id="carreras-cerrar" onclick="CerrarOnClick()">Carreras ⇧</button>
+    </div>
+    <div class="carreras-desp" id="carreras-desp">
+      <section id="tecnologias">
+        <h2>Tecnologías de la información</h2>
+        <h4>1er</h4>
+        <li><a href="introduccion.html">Introducción a la programación</a></li>
+        <h4>2do</h4>
+        <li><a href="arquitectura.html">Arquitectura de computadoras</a></li>
+        <h4>3er</h4>
+        <li><a href="programacion.html">Programación</a></li>
+        <h4>4to</h4>
+        <li><a href="estructura-datos.html">Estructura de datos</a></li>
+        <h4>7mo</h4>
+        <li><a href="programacion-web.html">Programación web</a></li>
+      </section>
+      <section id="mecatronica">
+        <h2>Mecatrónica</h2>
+        <h4>1er</h4>
+        <li><a href="herramientas.html">Herramientas informáticas I4.0</a></li>
+        <h4>2do</h4>
+        <li><a href="funciones.html">Funciones matemáticas</a></li>
+        <h4>3er</h4>
+        <li><a href="probabilidad.html">Probabilidad y estadística</a></li>
+      </section>
+    </div>
+    <ul>
+      <li><img src="img/1.jpeg" alt=""></li>
+      <li><img src="img/2.jpg" alt=""></li>
+      <li><img src="img/3.jpg" alt=""></li>
+      <li><img src="img/4.jpg" alt=""></li>
+      <li><img src="img/5.jpg" alt=""></li>
+    </ul>
+  </div>
+
+
+
+
+  <div class="titulo">
+    <h1>Algunos cursos interesantes...</h1>
+  </div>
+
+  <div class="main">
+    <section>
+
+      <head class="titulo">
+        <h3>Internet of Things</h3>
+        <img src="img/internet-things.jpg" alt="">
+      </head>
+      <p>
+        Innovación tecnológica tiene como objetivo conectar los ítems que usamos diariamente a internet, con el objetivo
+        de aproximar cada vez más el mundo físico al digital.
+      </p>
+      <footer class="pie">
+        <a href="https://www.faztweb.com/curso/internet-de-las-cosas" class="botones" target="_blank">Para más información</a>
+      </footer>
+    </section>
+
+    <section>
+
+      <head>
+        <h3>Industria 4.0</h3>
+        <img src="img/industry-4.0.jpg" alt="">
+      </head>
+      <p>La Industria 4.0 implica la promesa de una nueva revolución que combina técnicas avanzadas de producción y
+        operaciones con tecnologías inteligentes.
+      </p>
+      <footer>
+        <a href="https://miriadax.net/web/industria-40-nosotros-y-las-tecnologias-para-la-industria-del-futuro-4-edicion-" class="botones" target="_blank">Para más información</a>
+      </footer>
+    </section>
+
+    <section>
+
+      <head>
+        <h3>Big data y Data Science</h3>
+        <img src="img/big-data.jpg" alt="">
+      </head>
+      <p>Conjuntos de datos que no se pueden almacenar en un sistema tradicional.
+        Data Science: campo que abarca la limpieza, la preparación y el análisis de datos
+      </p>
+      <footer>
+        <a href="https://www.iebschool.com/blog/los-cursos-gratuitos-en-big-data-que-no-puedes-dejar-pasar-big-data/" class="botones" target="_blank">Para más información</a>
+      </footer>
+    </section>
+
+    <section>
+
+      <head>
+        <h3>Cloud hosting</h3>
+        <img src="img/cloud.jpg" alt="">
+      </head>
+      <p>Servidor en la nube es un tipo de alojamiento web que utiliza múltiples servidores diferentes
+        para equilibrar la carga y maximizar el tiempo de actividad.</p>
+      <a href="https://www.youtube.com/watch?v=qGDksBssyug" class="botones" target="_blank">Para más información</a>
+    </section>
+
+    <section>
+
+      <head>
+        <h3>Blockchain</h3>
+        <img src="img/blockchain.jpg" alt="">
+      </head>
+      <p>Blockchain es un registro único, consensuado y
+        distribuido en varios nodos de una red. En criptomonedas, es donde se registra cada transacción </p>
+      <a href="https://www.tutellus.com/tecnologia/blockchain/blockchain-conceptos-basicos-y-ampliacion-sobre-ethereum-18512" class="botones" target="_blank">Para más información</a>
+    </section>
+  </div>
+
+  <div class="titulo">
+    <h1>Carreras</h1>
+  </div>
+
+  <div class="container">
+    <section>
+      <article>
+        <div class="caja">
+          <img src="img/iti.jpg" alt="">
+          <div class="texto" id="texto-info" onmouseover="EventMouseover()" onmouseout="EventMouseDown()">Ingeniería en
+            Tecnologías de Información
+            <p id="texto-p">El Ingeniero en Tecnologías de la Información aplica sus sólidos conocimientos al diseño,
+              desarrollo e instrumentación de soluciones informáticas que requieren las organizaciones, atendiendo las
+              necesidades humanas derivadas de la interacción con la computadora.
+              <br>
+              Es competente para mantener equipos de cómputo, redes y sistemas de software operando eficientemente, y
+              ofrece al usuario soluciones integrales a los problemas asociados con el área computacional.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="caja">
+          <img src="img/mecatronica.jpg" alt="">
+          <div class="texto" id="texto-info2" onmouseover="EventMouseover2()" onmouseout="EventMouseDown2()">Ingeniería
+            en Mecatrónica
+            <p id="texto-p2">La Mecatrónica es una ingeniería que une conocimientos de mecánica, electrónica,
+              informática y los sistemas de control. El objetivo de un ingeniero en mecatrónica es mejorar procesos
+              automatizados a través del diseño, la planeación y el desarrollo de productos y servicios que se aplican
+              en industrias como la automotriz y la aeronáutica, por mencionar algunas.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+  </div>
+
+  <div class="titulo">
+    <h1>Te podría interesar...</h1>
+  </div>
+
+  <div class="jumbo">
+    <section>
+      <img src="img/jumbot.png" alt="">
+    </section>
+    <section>
+      <header>
+        <h3>¡Algunos videotutoriales!</h3>
+      </header>
+      <main>
+        <p>Me interesa demasiado que te desarrolles de manera profesional, por esa razón te dejo los siguientes
+          videotutoriales de algunos lenguajes de programación como:</p>
+        <li>C#</li>
+        <li>Java</li>
+        <li>C</li>
+        <a href="https://www.youtube.com/c/Programaci%C3%B3nATS/playlists" target="_blank" class="btn btn-primary">Click para ir  ➩</a>
+      </main>
+    </section>
+  </div>
+  <footer class="footer">
+    <a href=""><img src="img/whatsapp.png" alt="">Mándame un mensaje!</a>
+    <a href="https://www.facebook.com/ligth321"><img src="img/facebook.png" alt="">Búscame en facebook!</a>
+  </footer>
+
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

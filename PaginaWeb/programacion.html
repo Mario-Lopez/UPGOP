@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Lopez - Programación</title>
+    <link rel="stylesheet" href="css/diseño-materias.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="img/logoblanco.png" alt="" class="logo">
+          </a>
+        <input type="search" placeholder="Buscar...">
+        <button id="buscar"><img src="img/buscar.png" alt=""></button>
+        <nav>
+            <ul class="menu" id="menu-res">
+                <li class="lista"><a href="acerca.html" class="opciones">Acerca de</a></li>
+                <li class="lista"><a href="reglamento.html" class="opciones">Reglamento</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="search">
+        <button id="carreras-abrir" onclick="AbrirOnClick()">Carreras ⇩</button>
+        <button id="carreras-cerrar" onclick="CerrarOnClick()">Carreras ⇧</button>
+    </div>
+
+    <div id="carreras-desp">
+        <section id="tecnologias">
+            <h2>Tecnologías de la información</h2>
+            <h4>1er</h4>
+            <li><a href="introduccion.html">Introducción a la programación</a></li>
+            <h4>2do</h4>
+            <li><a href="arquitectura.html">Arquitectura de computadoras</a></li>
+            <h4>3er</h4>
+            <li><a href="programacion.html">Programación</a></li>
+            <h4>4to</h4>
+            <li><a href="estructura-datos.html">Estructura de datos</a></li>
+            <h4>7mo</h4>
+            <li><a href="programacion-web.html">Programación web</a></li>
+        </section>
+        <section id="mecatronica">
+            <h2>Mecatrónica</h2>
+            <h4>1er</h4>
+            <li><a href="herramientas.html">Herramientas informáticas I4.0</a></li>
+            <h4>2do</h4>
+            <li><a href="funciones.html">Funciones matemáticas</a></li>
+            <h4>3er</h4>
+            <li><a href="probabilidad.html">Probabilidad y estadística</a></li>
+        </section>
+    </div>
+
+    <div class="titulo">
+        <h1>Programación</h1>
+        <h2>PRO-ES 3A Y 3B</h2>
+    </div>
+
+    <main class="container">
+        <div class="panel-programa">
+            <div class="titulo-panel">Programa de Estudio</div>
+            <details class="styled">
+                <summary>Manual de la asignatura</summary>
+                <div class="informacion">
+                    <li>Clave de la Asignatura</li>
+                    <p>PRO-ES</p>
+                    <li>Propósito de aprendizaje de la asignatura</li>
+                    <p>El alumno codificará programas computacionales a través de operaciones del paradigma de programación estructurada para resolver problemas.
+                    </p>
+                    <li>Competencia a la que contribuye la materia</li>
+                    <p>De acuerdo con la metodología de diseño curricular de la CGUTyP, las competencias se desagregan en dos niveles de desempeño: Unidades de Competencias y Capacidades.</p>
+                    <li>Competencia</li>
+                    <p>Administrar la infraestructura tecnológica mediante el mantenimiento y soporte técnico, técnicas de diseño y administración de redes para optimizar el desempeño, garantizando la operación física y lógica de los equipos de cómputo y redes de área local con el fin de contribuir al logro de los objetivos de la organización.</p>
+                </div>
+            </details>
+            <details class="styled">
+                <summary>Evaluación</summary>
+                <div class="evaluacion">
+                    <section>
+                        <header><h5>Saber</h5></header>
+                        <main class="main-eva"><img src="img/saber.png" alt=""></main>
+                        <footer><h5>30%</h5></footer>
+                    </section>
+
+                    <section>
+                        <header><h5>Más</h5></header>
+                        <main class="main-eva"><img src="img/mas.png" alt=""></main>
+                        <footer></footer>
+                    </section>
+
+                    <section>
+                        <header><h5>Saber hacer</h5></header>
+                        <main class="main-eva"><img src="img/saber-hacer.png" alt=""></main>
+                        <footer><h5>40%</h5></footer>
+                    </section>
+
+                    <section>
+                        <header><h5>Más</h5></header>
+                        <main class="main-eva"><img src="img/mas.png" alt=""></main>
+                        <footer></footer>
+                    </section>
+
+                    <section>
+                        <header><h5>Ser</h5></header>
+                        <main class="main-eva"><img src="img/ser.png" alt=""></main>
+                        <footer><h5>30%</h5></footer>
+                    </section>
+                </div>
+            </details>
+            <details class="styled">
+                <summary>Bibliografía</summary>
+                <div class="informacion">
+                    <li>Paul J. Deitel, Harvey M. Deitel 2012 Cómo programar en Java Mexico Pearson Educaciòn 9786073211505</li>
+                    <li>Harvey M. Deitel, Paul J. Deitel 2013 Còmo Programar en C/C++ y Java Madrid, España Pearson Educaciòn 9702605318</li>
+                    <li>Michael L. Scott 2015 Programming Language Pragmatics 4th Edition México Morgan Kaufmann Publishers is an imprint of Elsevier 9780124104099</li>
+                    <li>Llorens Agost, María Luisa Gómez Adrian, Jon Ander Galiano Ronda, Isabel Remedios Herrero Cuco, Carlos Marqués Hernández, Francisco Casanova Faus, Assumpció González Mollá, Jorge Moltó Martínez, Germán Martínez Hinarejos, Carlos David Prieto Saez, Natividad Piris Ruano, Francisco Javier 2016 Empezar A Programar Usando Java España Editorial Universitat Politècnica de València 9788490485422</li>
+                    <li>Pablo Sznajdleder 2017 Programación estructurada a fondo implementacion de algoritmos en C México Alfaomega Grupo Editor 9789873832284</li>
+                    <li>Robert W. Sebesta 2012 Concepts Of Programming Languages United States of America Pearson Education 9780131395312</li>
+                </div>
+            </details>
+        </div>
+        <div class="panel-programa">
+            <div class="titulo-panel">Unidad 1 - Introducción a la programación estructurada</div>
+            <details class="styled">
+                <summary> TEMA 1 - Organización de las computadoras</summary>
+                <div class="informacion">
+                    <p>Segmentación de las computadoras</p>
+                    <li>Unidad de entrada</li>
+                    <li>Unidad de salida</li>
+                    <li>Unidad de memoria</li>
+                    <li>Unidad aritmética y lógica</li>
+                    <li>Unidad central de procesamiento</li>
+                    <li>Unidad de almacenamiento secundario</li>
+                </div>
+            </details>
+            <details class="styled">
+                <summary> TEMA 2 - Jerarquía de datos</summary>
+                <div class="informacion">
+                    <p>Los elementos de datos que procesan las computadoras forman una jerarquía de datos cuya estructura se vuelve cada vez más grande y compleja, a medida que pasamos de los elementos de datos más simples (conocidos como “bits”) a los más complejos, como los caracteres y los campos.</p>
+                    <li>Bits</li>
+                    <li>Carácteres</li>
+                    <li>Campos</li>
+                    <li>Registros</li>
+                    <li>Archivos</li>
+                    <li>Base de datos</li>
+                    <li>Big data</li>
+                </div>
+            </details>
+            <details class="styled">
+                <summary> TEMA 3 - Lenguajes máquina, lenguajes ensambladores, lenguajes de alto nivel e intérpretes</summary>
+                <div class="informacion">
+                    <p><b>Lenguajes máquinas</b></p>
+                    <p>Cualquier computadora sólo puede entender de manera directa su propio lenguaje máquina, el cual se define según su diseño de hardware. Por lo general, los lenguajes máquina consisten en cadenas de números (que finalmente se reducen a unos y ceros) que instruyen a las computadoras para realizar sus operaciones más elementales, una a la vez.</p>
+                    <br>
+                    <p><b>Lenguajes ensambladores</b></p>
+                    <p>La programación en lenguaje máquina era demasiado lenta y tediosa para la mayoría de los programadores. En vez de utilizar las cadenas de números que las computadoras podían entender de manera directa, los programadores empezaron a utilizar abreviaturas del inglés para representar las operaciones elementales. Estas abreviaturas formaron la base de los lenguajes ensambladores.</p>
+                    <br>
+                    <p>Lenguajes de alto nivel y compiladores</p>
+                    <p>El uso de las computadoras se incrementó rápidamente con la llegada de los lenguajes ensambladores, pero los programadores aún requerían de muchas instrucciones para llevar a cabo incluso hasta las tareas más simples. Para agilizar el proceso de programación se desarrollaron los lenguajes de alto nivel, en los que podían escribirse instrucciones individuales para realizar tareas importantes. </p>
+                    <br>
+                    <p>Intérpretes</p>
+                    <p>El proceso de compilación de un programa extenso escrito en lenguaje de alto nivel a un lenguaje máquina, puede tardar un tiempo considerable en la computadora. Los programasintérpretes, que se desarrollaron para ejecutar de manera directa programas en lenguaje de alto nivel, evitan el retraso de la compilación, aunque se ejecutan con más lentitud que los programas compilados.</p>
+                </div>
+            </details>
+        </div>
+        <div class="panel-programa">
+            <div class="titulo-panel">Unidad 2 - Estructura de control</div>
+            <details class="styled">
+                <summary>TEMA 1 - Estructura condicional double</summary>
+                <div class="informacion">
+                    <code style="color: white; font-size: 10px;">
+                        <p>
+                            <p>Un pequeño ejemplo</p>
+                            <br>
+                            public static void main(String[] args)
+                            <br>
+                            {
+                                <br>
+                                int num=0;
+                                <br>
+                                Console.WriteLine("Ingresa un número:");
+                                <br>
+                                num = int.Parse(Console.ReadLine());
+                                <br>
+                                if(num>0)
+                                <br>
+                                {
+                                <br>
+                                Console.WriteLine("El número es positivo");
+                                <br>
+                                }
+                                <br>
+                                Console.WriteLine("El número ingresado fue: " + num);
+                                <br>
+                            }
+                        </p>
+                    </code>
+                </div>
+            </details>
+            <details class="styled">
+                <summary>TEMA 2 - Estructura condicional double</summary>
+                <div class="informacion">
+                    <code style="color: white; font-size: 10px;">
+                        <p>
+                            <p>Un pequeño ejemplo</p>
+                            <br>
+                            public static void main(String[] args)
+                            <br>
+                            {
+                                <br>
+                                int num=0;
+                                <br>
+                                Console.WriteLine("Ingresa un número:");
+                                <br>
+                                num = int.Parse(Console.ReadLine());
+                                <br>
+                                if(num>0)
+                                <br>
+                                {
+                                <br>
+                                Console.WriteLine("El número es positivo");
+                                <br>
+                                }
+                                <br>
+                                else
+                                <br>
+                                {
+                                <br>
+                                Console.WriteLine("El número es negativo");
+                                <br>
+                                }
+                                <br>
+                                Console.WriteLine("El número ingresado fue: " + num);
+                                <br>
+                            }
+                        </p>
+                    </code>
+                </div>
+            </details>
+            <details class="styled">
+                <summary>TEMA 3 - Estructura condicional multiple</summary>
+                <div class="informacion">
+                    <code style="color: white; font-size: 10px;">
+                        <p>
+                            <p>Un pequeño ejemplo</p>
+                            <br>
+                            public static void main(String[] args)
+                            <br>
+                            {
+                                <br>
+                                int num=0;
+                                <br>
+                                Console.WriteLine("Ingresa un número:");
+                                <br>
+                                num = int.Parse(Console.ReadLine());
+                                <br>
+                                if(num>0)
+                                <br>
+                                {
+                                <br>
+                                Console.WriteLine("El número es positivo");
+                                <br>
+                                }
+                                <br>
+                                else
+                                <br>
+                                {
+                                <br>
+                                Console.WriteLine("El número es negativo");
+                                <br>
+                                }
+                                <br>
+                                Console.WriteLine("El número ingresado fue: " + num);
+                                <br>
+                            }
+                        </p>
+                    </code>
+                </div>
+            </details>
+        </div>
+        <div class="panel-programa">
+            <div class="titulo-panel">Unidad 3 - Subprogramas y recursividad</div>
+            <details class="styled">
+                <summary>TEMA 1 - Funciones </summary>
+                <div class="informacion">
+                    <br>
+                    <p>Una función permite encapsular una parte del código y llamarlo desde otros sitios en su código. Podrías estar muy pronto en una situación en la cual necesites repetir la misma pieza de código, en varios lugares, y aquí es donde usamos las funciones.</p>
+
+                    <p>Aquí te dejo unos ejemplos sencillos</p>
+                    <a href="https://www.discoduroderoer.es/funciones-y-metodos-en-c-sharp/" target="_blank"><img src="img/libro.png" alt="" class="img-mediana"></a>
+                </div>
+            </details>
+            <details class="styled">
+                <summary>TEMA 2 - Arreglos</summary>
+                <div class="informacion">
+                    <p>Los arreglos en C# (también conocidos como Arrays) al igual que en C/C++, son indexados iniciando en cero (0). La forma de trabajo es muy similar a la mayoría de lenguajes pero hay lagunas diferencias que notarán.</p>
+                    <a href="https://csharp-facilito.blogspot.com/2013/07/arreglos-en-c-sharp.html" target="_blank">Ejemplos sencillos de Arrays</a>
+                </div>
+            </details>
+            <details class="styled">
+                <summary>TEMA 3 - Recursividad</summary>
+                <div class="informacion">
+                    <br>
+                    <p>Primero debemos decir que la recursividad no es una estructura de datos, sino que es una técnica de programación que nos permite que un bloque de instrucciones se ejecute n veces. Remplaza en ocasiones a estructuras repetitivas.</p>
+                    <p>Aquí te dejo unos ejemplos sencillos</p>
+                    <a href="https://www.tutorialesprogramacionya.com/csharpya/detalleconcepto.php?codigo=175&inicio=40" target="_blank"><img src="img/libro.png" alt="" class="img-mediana"></a>
+                </div>
+            </details>
+        </div>
+    </main>
+
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/funciones-materias.js"></script>
+</body>
+
+</html>

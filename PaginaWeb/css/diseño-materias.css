@@ -1,0 +1,340 @@
+.header 
+{
+    background: tomato;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.header .logo
+{
+    color: white;
+    height: 50px;
+    transition: all 0.5s ease;
+}
+.header .logo:hover
+{
+    transform: scale(1.01);
+    text-decoration: none;
+}
+.header input
+{
+    width: 300px;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 30px;
+    border-color:  rgba(51, 104, 148);
+    margin-left: 20px;
+}
+.header #buscar
+{
+    border-radius: 5px;
+    border-width: 1px;
+    height: 30px;
+}
+.header .menu
+{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+}
+.menu li
+{
+    margin-left: 15px;
+}
+.opciones
+{
+    color: white;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.opciones::after
+{
+    content: '';
+    width: 0;
+    display: block;
+    height: 2px;
+    background: tomato;
+    transition: all 0.5s ease;
+}
+.opciones:hover::after
+{
+    width: 100%;
+}
+.opciones:hover
+{
+    text-decoration: none;
+}
+.header img
+{
+    height: 20px;
+}
+.search
+{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.search #carreras-abrir
+{
+    height: 40px;
+    border-style: none;
+    background: none;
+    color: tomato;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.search #carreras-cerrar
+{
+    height: 40px;
+    border-style: none;
+    background: none;
+    color: tomato;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    display: none;
+}
+#carreras-desp
+{
+    visibility: hidden;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background:rgba(51, 104, 148,0.8);
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+#carreras-desp section
+{
+    color: white;
+    background: rgba(51, 104, 148,0.8);
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#carreras-desp #tecnologias
+{
+    visibility: hidden;
+}
+#carreras-desp #mecatronica
+{
+    visibility: hidden;
+}
+#carreras-desp section a
+{
+    color: white;
+}
+
+.container
+{
+    transition: all 0.5s ease;
+}
+.titulo
+{
+    margin: 20px 20px;
+}
+.panel-programa
+{
+    background: rgba(51, 104, 148,0.4);
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    margin: 40px;
+    transition: all 0.5s ease;
+}
+.panel-programa .titulo-panel
+{
+    background: tomato;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+}
+details.styled
+{
+    background:rgba(51, 104, 148);
+    margin: 10px;
+    padding: 20px;
+    width: 98%;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+    color:white;
+    max-height: 60px;
+    cursor: pointer;
+}
+details.styled summary
+{
+    font-size: 20px;
+}
+details.styled:hover
+{
+    transform: scale(1.01);
+}
+details[open].styled
+{
+    max-height: 800px;
+}
+.informacion li
+{
+    color: white;
+    transition: all 0.5s ease-in-out;
+    max-height: 400px;
+    font-size: 15px;
+    text-align: justify;
+}
+.informacion .img-grande
+{
+    height: 300px;
+    transition: all 0.5s ease;
+}
+.informacion .img-chica
+{
+    height: 300px;
+    transition: all 0.5s ease;
+}
+.informacion .img-mediana
+{
+    height: 200px;
+    transition: all 0.5s ease;
+}
+.informacion a
+{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.informacion a:hover
+{
+    color: tomato;
+}
+.evaluacion
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.evaluacion section
+{
+    background: tomato;
+    border-radius: 10px;
+    margin: 10px;
+}
+.evaluacion section img
+{
+    height: 50px;
+}
+.evaluacion section header,.main-eva,footer
+{
+    text-align: center;
+}
+
+@media screen and (max-width:770px)
+{
+    details.styled summary
+    {
+        font-size: 13px;
+    }
+    .informacion li
+    {
+        font-size: 10px;
+    }
+    .informacion p
+    {
+        font-size: 10px;
+    }
+    .informacion .img-grande
+    {
+        height: 240px;
+    }
+    .informacion .img-mediana
+    {
+        height: 110px;
+    }
+    .informacion .img-chica
+    {
+        height: 140px;
+    }
+    .evaluacion
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:660px)
+{
+    .header .logo
+    {
+        height: 35px;
+    }
+    #carreras-desp
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .header h1
+    {
+        font-size: 18px;
+    }
+    .header input
+    {
+        width: 200px;
+    }
+    .header .menu .opciones
+    {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:400px)
+{
+    .header input
+    {
+        top: 10px;
+        width: 100px;
+        height: 20px;
+    }
+    .header #buscar
+    {
+        height: 20px;
+    }
+    .header img
+    {
+        height: 15px;
+    }
+    .header h1
+    {
+        font-size: 12px;
+    }
+    .header .menu
+    {
+        position: absolute;
+    }
+    .header .menu .opciones
+    {
+        color: white;
+        font-size: 12px;
+        margin-left:0px;
+    }
+    #carreras-desp
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .informacion .img-grande
+    {
+        height: 180px;
+    }
+    .informacion .img-mediana
+    {
+        height: 80px;
+    }
+    .informacion .img-chica
+    {
+        height: 120px;
+    }
+}
